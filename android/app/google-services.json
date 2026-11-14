@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "178209393568",
+    "firebase_url": "https://fir-manha-7b769-default-rtdb.firebaseio.com",
+    "project_id": "fir-manha-7b769",
+    "storage_bucket": "fir-manha-7b769.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178209393568:android:278e07c273aadbe52072c5",
+        "android_client_info": {
+          "package_name": "br.com.bruno.tapdash"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa5HPtU1BfrtPWphazoznvedvURSP5_n0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178209393568:android:d16385bb3e2ec18d2072c5",
+        "android_client_info": {
+          "package_name": "br.qi.firebasemanha"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa5HPtU1BfrtPWphazoznvedvURSP5_n0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178209393568:android:61f625f5ff04b6a92072c5",
+        "android_client_info": {
+          "package_name": "br.qi.tape_dash"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa5HPtU1BfrtPWphazoznvedvURSP5_n0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
