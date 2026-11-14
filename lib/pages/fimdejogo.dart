@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tap_dash/colors/cor.dart';
 import 'package:tap_dash/services/audio_service.dart';
+import 'package:tap_dash/widget/banner_ad_widget.dart';
 import 'package:tap_dash/widget/fimdejogomenu.dart';
 
 class FimDeJogo extends StatefulWidget {
@@ -128,6 +129,11 @@ class _FimDeJogoState extends State<FimDeJogo>
                     ),
 
                     const SizedBox(height: 40),
+
+                    // Banner entre as stats e o campo de nome
+                    const BannerAdWidget(),
+
+                    const SizedBox(height: 32),
 
                     // Campo de nome
                     Text(

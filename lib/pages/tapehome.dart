@@ -5,6 +5,7 @@ import 'package:tap_dash/colors/cor.dart';
 import 'package:tap_dash/pages/pontosscreen.dart';
 import 'package:tap_dash/pages/tapejogo.dart';
 import 'package:tap_dash/services/audio_service.dart';
+import 'package:tap_dash/widget/banner_ad_widget.dart';
 import 'package:tap_dash/widget/homemenu.dart';
 
 class TapeDashHome extends StatefulWidget {
@@ -176,7 +177,10 @@ class _TapeDashHomeState extends State<TapeDashHome>
                     letterSpacing: 2,
                   ),
                 ),
-                const SizedBox(height: 16),
+                const SizedBox(height: 12),
+                // Banner de anúncio — aparece só quando carregado
+                const BannerAdWidget(),
+                const SizedBox(height: 8),
               ],
             ),
           ),
