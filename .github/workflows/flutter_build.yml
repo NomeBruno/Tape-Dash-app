@@ -29,11 +29,11 @@ jobs:
       - name: Instalar dependências do projeto
         run: flutter pub get
 
-      - name: Compilar APK de Release
-        run: flutter build apk --release --android-skip-build-dependency-validation
+      - name: Compilar APK de Debug
+        run: flutter build apk --debug --android-skip-build-dependency-validation
 
       - name: Salvar APK como artefato
         uses: actions/upload-artifact@v4
         with:
-          name: release-apk
-          path: path: build/app/outputs/flutter-apk/app-debug.apk
+          name: debug-apk
+          path: build/app/outputs/flutter-apk/app-debug.apk
