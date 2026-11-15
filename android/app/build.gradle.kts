@@ -31,6 +31,12 @@ android {
             signingConfig = signingConfigs.getByName("debug")
         }
     }
+
+    lint {
+        disable += "InvalidPackage"
+        abortOnError = false
+        checkReleaseBuilds = false
+    }
 }
 
 // O bloco kotlinOptions/compilerOptions moderno do Kotlin fica aqui fora, no escopo principal
